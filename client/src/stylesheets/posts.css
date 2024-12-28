@@ -1,0 +1,53 @@
+.post {
+    border-radius: 5px;
+    border-style: none;
+}
+
+.post:hover *{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.postDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.postList {
+    list-style-type: none;
+    padding: 0;
+    width: 50vw;
+}
+
+.postList li {
+    border-bottom: 1px dotted #000;
+    margin-bottom: 10px;
+}
+
+.postHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.postTitle {
+    font-size: 16pt;
+}
+
+.postCounts {
+    display: flex;
+    flex-direction: row;
+}
+
+.postLinkFlair{
+    padding-bottom: 5px;
+    font-size: 12pt;
+}
+
+.postContentPreview {
+    font-size: 14pt;
+}
+
+.otherIndicator {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,80 @@
+#welcomeText{
+    font-size: 2em;
+    color: #ff4500;
+    margin-bottom: 10px;
+}
+
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 40vw;
+    background-color: #d4d4d4;
+    border-radius: 5px;
+}
+
+.welcome-background{
+    display: flex;
+    background-color: #202021;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button{
+    font-size: large;
+    margin-top: 10px;
+    width: 15vw;
+    background-color: #888;
+    color: white;
+    border-radius: 5px;
+}
+
+#loginDiv .auth-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4500;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#loginDiv .auth-form input{
+    margin-top: 10px;
+    width: 15vw;
+    height: 30px;
+    border-radius: 5px;
+    font-size: large;
+
+}
+
+#registerDiv .auth-form{
+    margin-top: 10px;
+    display: grid;
+    background-color: #ff4500;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#registerDiv .auth-form input{
+    margin-top: 10px;
+    width: 15vw;
+    height: 30px;
+    border-radius: 5px;
+    font-size: large;
+
+}

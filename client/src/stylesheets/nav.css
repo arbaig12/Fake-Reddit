@@ -1,0 +1,85 @@
+.nav {
+    display: flex;
+    height: 93vh;
+    bottom: 0;
+    position: fixed;
+    width: 12.5vw;
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-direction: column;
+    border-right: #000 1px solid;
+    overflow-y: auto;
+}
+
+.navDiv {
+    font-size: large;
+    
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+} 
+
+.nav-section-title {
+    font-size: 14pt;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #555;
+}
+
+#navHome {
+    border-bottom: #000 solid 1px;
+}
+
+#navHome a {
+    color: #000;
+}
+
+#navHome a:visited {
+    color: inherit;
+}
+
+#homeLink {
+    background-color: #ccc;
+    width: 100%;
+    text-decoration: underline;
+}
+
+#homeLink:hover{
+    background-color: #ff4500;
+    cursor: pointer;
+}
+
+#communityContent {
+    margin-left: 10px;
+}
+
+#createCommunityBtn {
+    font-size: medium;
+}
+
+#createCommunityBtn:hover {
+    background-color: #ff4500;
+    color: #fff;
+}
+
+#communityList {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+#communityList label:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#communityList li {
+    padding-bottom: 5px;
+}
+
+.communityItem {
+    text-decoration: none;
+}

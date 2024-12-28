@@ -1,0 +1,32 @@
+.fullPost{
+    border-bottom: 1px solid #000;
+}
+
+.thread li::marker {
+    content: " | "; /* Your symbol here */
+}
+
+.fullPostTitle {
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+.fullPostContent {
+    padding-bottom: 5px;
+}
+
+.fullPostViewComment {
+    padding-bottom: 5px;
+}
+
+.fullPostAddComment {
+    padding-bottom: 10px;
+}
+
+.comment {
+    padding-bottom: 10px;
+}
+
+.comment .thread {
+    padding-top: 10px;
+}

@@ -1,0 +1,35 @@
+.round {
+    border-radius: 8px;
+    border-style: none;
+}
+
+.thin-outline {
+    outline: 1px solid #333;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.community-header {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+#communityCounts {
+    display: flex;
+    flex-direction: column;
+}
+
+.community-header .headerContainer{
+    padding-right: 20px;
+}

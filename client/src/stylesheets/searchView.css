@@ -1,0 +1,16 @@
+.search-header {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.search-header .headerContainer{
+    padding-right: 20px;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}

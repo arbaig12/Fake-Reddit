@@ -1,0 +1,82 @@
+
+.banner {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px #000 solid;
+  padding-bottom: 5px;
+  height: 6vh;
+  top: 0;
+  background-color: #fff;
+}
+
+.bannerText {
+  color: #ff4500;
+  font-size: 2em;
+  margin-right: auto;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.phreddit-logo:hover {
+  cursor: pointer;
+}
+
+#search {
+  margin: 0;
+}
+
+#search input {
+  width: 20vw;
+  font-size: 14px;
+  height: 30px;
+  background-color: #e5ebee;
+  padding-left: 20px;
+}
+
+#search input:focus{
+  outline: none;
+}
+
+#search input:hover{
+  background-color: #dbe4e9;
+}
+
+#createPost {
+  margin-left: auto; /* Pushes this element to the far right */
+  /* padding-right: 10px; */
+}
+
+#createPost button {
+  /* width: 10vh; */
+  font-size: 14px;
+  height: 25px;
+}
+
+.bannerBtn button{
+  font-size: 14px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.bannerBtn button:hover{
+  background-color: #ff4500;
+  color: #fff;
+  cursor: pointer;
+}
+
+#createPost button:hover{
+  background-color: #ff4500;
+  color: #fff;
+}
+
+.bannerText a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bannerText a:active {
+  color: inherit;
+  text-decoration: none;
+}

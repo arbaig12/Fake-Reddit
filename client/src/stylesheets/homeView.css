@@ -1,0 +1,30 @@
+.round {
+    border-radius: 8px;
+    border-style: none;
+}
+
+.thin-outline {
+    outline: 1px solid #333;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.home-header {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.home-header .headerContainer{
+    padding-right: 20px;
+}

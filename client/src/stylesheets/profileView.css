@@ -1,0 +1,85 @@
+#profileHeader{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    /* align-items: center; */
+    /* margin-top: 50px; */
+}
+
+.userListing{
+    margin-top: 25px;
+}
+
+.userListing ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.userListing ul li{
+    list-style-type: none;
+    padding: 0;
+    border-bottom: solid 1px #d3d3d3;
+    margin-bottom: 10px;
+}
+
+.commentItem:hover *{
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.communityLi{
+    font-size: large;
+}
+
+.communityLi:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.commentHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+.listingButtons{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.listingButtons button{
+    margin-right: 20px;
+}
+
+.user-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.user-list-item:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.delete-user-button{
+    align-self: center;
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+}
+
+.delete-user-button:hover{
+    align-self: center;
+    background-color: darkred;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
